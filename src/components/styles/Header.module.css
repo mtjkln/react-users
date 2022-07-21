@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.heading {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.links {
+  position: absolute;
+  right: 30px;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+}
+.links ul li {
+  margin: 20px;
+}
+.links ul li a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.active {
+  border-bottom: 2px solid white;
+}
