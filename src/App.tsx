@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className={styles.users}>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/react-users" exact>
             <Redirect to="/react-users/new-user" />
           </Route>
           <Route path="/react-users/new-user">
