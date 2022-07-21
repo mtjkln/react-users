@@ -12,16 +12,16 @@ function App() {
       <Header />
       <div className={styles.users}>
         <Switch>
-          <Route path="/react-users" exact>
-            <Redirect to="/react-users/new-user" />
+          <Route path="/" exact>
+            <Redirect to="/new-user" />
           </Route>
-          <Route path="/react-users/new-user">
+          <Route path="/new-user">
             <NewUser />
           </Route>
-          <Route path="/react-users/edit-user">
+          <Route path="/edit-user">
             <EditUser />
           </Route>
-          <Route path="/react-users/show-user">
+          <Route path="/show-user">
             <ShowUser />
           </Route>
         </Switch>
