@@ -22,17 +22,23 @@ const Header: React.FC = () => {
       <div className={styles.links}>
         <ul>
           <li>
-            <NavLink activeClassName={styles.active} to="/new-user">
+            <NavLink activeClassName={styles.active} to="/react-users/new-user">
               New Users
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/edit-user">
+            <NavLink
+              activeClassName={styles.active}
+              to="/react-users/edit-user"
+            >
               Edit Users
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/show-user">
+            <NavLink
+              activeClassName={styles.active}
+              to="/react-users/show-user"
+            >
               Show Users
             </NavLink>
           </li>

@@ -13,15 +13,15 @@ function App() {
       <div className={styles.users}>
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/new-user" />
+            <Redirect to="/react-users/new-user" />
           </Route>
-          <Route path="/new-user">
+          <Route path="/react-users/new-user">
             <NewUser />
           </Route>
-          <Route path="/edit-user">
+          <Route path="/react-users/edit-user">
             <EditUser />
           </Route>
-          <Route path="/show-user">
+          <Route path="/react-users/show-user">
             <ShowUser />
           </Route>
         </Switch>
